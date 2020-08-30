@@ -3,6 +3,13 @@
   padding: 0;
   font-family: sans-serif;
 }
+:root {
+  --grey: #574f4a;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 header {
   height: 90px;
   width: 100%;
@@ -15,6 +22,29 @@ header {
   width: 200px;
   height: 55px;
 }
-.header .content {
+header .content {
   width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+header nav {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+}
+header svg {
+  margin: 1.2em 2em 0 0;
+}
+header a {
+  color: var(--grey);
 }
