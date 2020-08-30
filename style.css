@@ -5,6 +5,8 @@
 }
 :root {
   --grey: #574f4a;
+  --yellow: #ffa300;
+  --lightBlue: #6acad8;
 }
 a {
   color: inherit;
@@ -51,7 +53,56 @@ header a {
 main {
   width: 100%;
   height: 500px;
-  background:linear-gradient(#00163d,#001e54 25%,#9acfe1 120%);
-  border-bottom-right-radius: 60%;
-  border-bottom-left-radius: 40%;
+  background: linear-gradient(#00163d, #001e54 25%, #9acfe1 120%);
+  border-bottom-right-radius: 58%;
+  border-bottom-left-radius: 42%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .content {
+  width: 95%;
+  height: 400px;
+  margin-bottom: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .content .col {
+  width: 50%;
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main h1 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 36px;
+}
+main p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+}
+button {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 0 1em 0 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#lightBlueBg {
+  background-color: var(--lightBlue);
+}
+#yellowBg {
+  background-color: var(--yellow);
+}
+main img {
+  width: 500px;
+  height: 180px;
 }
