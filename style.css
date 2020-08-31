@@ -112,3 +112,6 @@ section {
   align-items: center;
   flex-direction: column;
 }
+.workflow {
+  width: 95%;
+}
