@@ -142,12 +142,12 @@ section {
   line-height: 31px;
   font-weight: 400;
 }
-.row {
+.workflow .row {
   width: 95%;
   display: flex;
   justify-content: space-between;
 }
-.row .col {
+.workflow .row .col {
   width: 43.5%;
   display: flex;
   flex-direction: column;
@@ -157,10 +157,10 @@ section {
   padding: 2em;
   background-color: white;
 }
-.col #p {
+.workflow .col #p {
   margin: 2em 0 2em 0;
 }
-.col .subRow {
+.workflow .col .subRow {
   width: 100%;
   margin: -2em 0 4em 0;
   padding: 0em 4em 1em 0em;
@@ -168,17 +168,17 @@ section {
   border-radius: 10px;
   background-color: white;
 }
-.subRow span {
+.workflow .subRow span {
   display: flex;
   width: 560px;
 }
-.subRow #subRowP {
+.workflow .subRow #subRowP {
   width: 530px;
   font-size: 21px;
   margin-left: 1em;
   margin-top: -1em;
 }
-.subRow img {
+.workflow .subRow img {
   width: 300px;
   height: 170px;
   margin-top: 2em;
@@ -191,4 +191,7 @@ section {
 }
 #subRowCol {
   border: none;
+}
+.toolkits {
+  width: 95%;
 }
