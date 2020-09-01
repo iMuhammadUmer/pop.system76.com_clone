@@ -247,3 +247,7 @@ p {
 #btnToolkits:hover {
   background-color: var(--yellow);
 }
+.review {
+  width: 70%;
+  height: 100px;
+}
