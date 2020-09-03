@@ -254,13 +254,19 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.review .col {
+  width: 600px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .review p {
   font-size: 16px;
   width: 70%;
 }
 #bold {
   font-weight: 600;
-  margin-top: 2em;
 }
 .review img {
   height: 150px;
@@ -271,4 +277,37 @@ p {
   width: 95%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.hardware .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hardware .row .col {
+  width: 445px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.hardware h2 {
+  font-size: 29px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.hardware img {
+  width: 200px;
+  height: 140px;
+}
+.hardware a {
+  width: 230px;
+  height: 165px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid silver;
+  border-radius: 10px;
 }
