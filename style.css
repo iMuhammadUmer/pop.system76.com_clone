@@ -318,3 +318,10 @@ p {
   align-items: center;
   flex-direction: column;
 }
+.systemSecurity .col {
+  width: 610;
+  height: 845px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
