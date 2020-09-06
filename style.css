@@ -7,6 +7,7 @@
   --grey: #574f4a;
   --yellow: #ffa300;
   --lightBlue: #6acad8;
+  --downlaodSupportBg: #c4dfd6;
   --silver: #f6f6f6;
   --black: #272727;
 }
@@ -404,4 +405,21 @@ p {
 .features .col img {
   width: 340px;
   height: 190px;
+}
+.downlaodSupport {
+  width: 100%;
+  height: 400px;
+  background-color: var(--downlaodSupportBg);
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.downlaodSupport p {
+  width: 55%;
+  text-align: center;
+  margin-bottom: 2em;
 }
