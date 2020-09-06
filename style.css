@@ -454,3 +454,8 @@ p {
   width: 32px;
   height: 32px;
 }
+footer {
+  height: 320px;
+  width: 100%;
+  background-color: var(--grey);
+}
