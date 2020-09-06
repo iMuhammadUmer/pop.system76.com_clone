@@ -10,6 +10,7 @@
   --downlaodSupportBg: #c4dfd6;
   --silver: #f6f6f6;
   --black: #272727;
+  --brown: #f5895d;
 }
 body {
   background-color: var(--silver);
@@ -422,4 +423,34 @@ p {
   width: 55%;
   text-align: center;
   margin-bottom: 2em;
+}
+.support {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown);
+}
+.support button {
+  height: 110px;
+  padding: 0 1em 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 29px;
+  line-height: 36px;
+  font-weight: 700;
+  background-color: transparent;
+  transition: 0.25s;
+  text-transform: capitalize;
+  margin: 0 0.5em 0 0.5em;
+}
+.support button:hover {
+  box-shadow: 0px 0px 10px 0px var(--yellow);
+}
+.support img {
+  width: 32px;
+  height: 32px;
 }
