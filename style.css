@@ -318,10 +318,32 @@ p {
   align-items: center;
   flex-direction: column;
 }
+.systemSecurity .content {
+  display: flex;
+  justify-content: space-between;
+}
 .systemSecurity .col {
-  width: 610;
-  height: 845px;
+  width: 616px;
+  height: 900px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+.systemSecurity .col .row {
+  width: 590px;
+  height: 270px;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+.systemSecurity h1 {
+  font-size: 29px;
+  line-height: 36px;
+  font-weight: 500;
+  padding: 1em 0 1em 1em;
+}
+.systemSecurity p {
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+  padding: 0 0 1em 1.2em;
 }
