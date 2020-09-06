@@ -347,3 +347,29 @@ p {
   font-weight: 400;
   padding: 0 0 1em 1.2em;
 }
+.softwareTools {
+  width: 95%;
+  height: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0 2em 0;
+}
+.softwareTools .col {
+  height: 310px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.softwareTools h1 {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 0.5em;
+}
+.softwareTools img {
+  margin: 0 1em 0 1em;
+}
