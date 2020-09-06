@@ -375,4 +375,33 @@ p {
 }
 .features {
   width: 95%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.features .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.features .col {
+  width: 400px;
+  height: 500px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.features p {
+  width: 340px;
+  height: 155px;
+}
+.features .col img {
+  width: 340px;
+  height: 190px;
 }
